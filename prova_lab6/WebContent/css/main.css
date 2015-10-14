@@ -1,0 +1,53 @@
+
+.container{        
+    
+    border-radius: 10px;
+    width: 560px;
+    margin: 40px 400px auto;
+    padding: 20px;
+    border-style: inset;
+    border-color: #000000;
+    text-align: center;
+
+}
+
+.label{
+    color: #ffffff;
+    position: relative;
+}
+
+legend{
+    text-align: left;
+}
+
+.results{
+
+    text-align: left;
+    margin-left: 96px;
+    padding: 20px 0px 0px 0px;
+
+}
+
+.form-control{
+    
+    width: 219px;
+    display: inline;
+}
+.btn{
+    
+    
+    margin-left: 20px;
+    
+    
+}
+
+#inpSalary{
+    text-align: left;
+    margin-left: 33px;
+    padding: 10px;
+}
+
+body{
+    background-color: #ffffff;
+
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>First test for ProjectLabVI</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<section class="container">	  
+          <legend>Salary Paychek Calculator</legend>  
+          <form name="salario" class="form-horizontal">
+              
+              <label>
+              Salary:<input type="number" name="salaryInput"  class="form-control" placeholder="Digite o salario">
+              </label>
+
+              <button type="submit" class="btn btn-default">Calc</button> 
+      
+	      </form>	       
+
+	      <div class="results">
+	      	
+	    	<span>INSS:</span>
+	    	<span class="resultInss">Resultado</span>
+
+			<div>
+				<span>IRPF:</span>
+				<span class="resultIrpf">Resultado</span>
+			</div>	    	
+
+			<div>
+			<span>Liquid Salary:</span>
+			<span class="resultLiquidSalary">Resultado</span>
+		</div>
+			
+		</div> 
+	    
+</section>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="js/CalcService.js"></script>
+<script src="js/CalcController.js"></script>
+
+</body>
+</html>
